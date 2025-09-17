@@ -38,7 +38,7 @@ public class BaseClass {
 	    case "edge" : driver = new EdgeDriver();break;
 	}
 		
-		
+		system.out.println("The file can get corrupt ");
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
